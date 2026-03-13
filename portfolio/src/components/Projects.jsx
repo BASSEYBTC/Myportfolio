@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import mine from "../assets/port.png";
 import photo from "../assets/photo.jpeg";
-import reactIcon from "../assets/react.svg";
+import ecorm from "../assets/ecorm.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,7 +53,7 @@ const Projects = () => {
       description:
         "A full-featured online shopping platform with cart functionality, payment integration, and admin dashboard.",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: mine,
+      image: ecorm,
       link: "#",
     },
     {
