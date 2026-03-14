@@ -97,15 +97,15 @@ const TechStack = () => {
           </p>
         </div>
 
-        <div className="relative overflow-hidden [mask-image:linear-gradient(90deg,#0000_0%,#000_10%,#000_calc(100%-10%),#0000_100%)]">
+        <div className="relative overflow-hidden mask-[linear-gradient(90deg,#0000_0%,#000_10%,#000_calc(100%-10%),#0000_100%)]">
           <div
             ref={marqueeRef}
-            className="flex gap-8 whitespace-nowrap [animation:marquee_40s_linear_infinite]"
+            className="flex gap-8 whitespace-nowrap animate-[marquee_10s_linear_infinite]"
           >
             {skills.concat(skills, skills).map((tech, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-24 h-16 flex flex-col items-center justify-center group hover:paused transition-all duration-300 hover:scale-110"
+                className="shrink-0 w-24 h-16 flex flex-col items-center justify-center group hover:paused transition-all duration-300 hover:scale-110"
               >
                 {tech.icon.startsWith("http") ? (
                   <img

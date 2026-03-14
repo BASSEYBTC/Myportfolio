@@ -138,6 +138,52 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white rounded-full animate-bounce" />
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes neon-glow {
+          0%,
+          100% {
+            text-shadow:
+              0 0 5px #00f,
+              0 0 10px #00f,
+              0 0 15px #00f,
+              0 0 20px #00f,
+              0 0 35px #00f,
+              0 0 40px #00f,
+              0 0 50px #00f;
+            box-shadow: 0 0 20px #00f;
+          }
+          50% {
+            text-shadow:
+              0 0 20px #0ff,
+              0 0 30px #0ff,
+              0 0 40px #0ff,
+              0 0 50px #0ff,
+              0 0 60px #0ff,
+              0 0 70px #0ff,
+              0 0 80px #0ff;
+            box-shadow: 0 0 30px #0ff;
+          }
+        }
+        .neon-text {
+          background: linear-gradient(90deg, #00f 0%, #0ff 50%, #00f 100%);
+          background-size: 200% 100%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: neon-glow 2s ease-in-out infinite alternate;
+          filter: drop-shadow(0 0 10px #00f);
+        }
+        .neon-text span {
+          background: linear-gradient(90deg, #00f 0%, #0ff 50%, #00f 100%);
+          background-size: 200% 100%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: neon-glow 2s ease-in-out infinite alternate;
+          filter: drop-shadow(0 0 10px #00f);
+        }
+      `}</style>
     </section>
   );
 };

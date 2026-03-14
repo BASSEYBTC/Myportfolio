@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import mine from "../assets/port.png";
 import movie from "../assets/movie.png";
 import ecorm from "../assets/ecorm.png";
+import wed from "../assets/wed.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -69,13 +70,13 @@ const Projects = () => {
       description:
         "Interactive weather application with forecasts, maps, and location-based alerts.",
       tags: ["React", "OpenWeather API", "Chart.js"],
-      image: movie,
+      image: wed,
       link: "#",
     },
     {
       title: "Movie App",
       description:
-        "Full-stack social platform with real-time messaging, post sharing, and user profiles.",
+        "A movie discovery platform that lets users explore trending films, search for their favorite titles, and view detailed movie information. Designed with a responsive interface and powered by a movie API to provide real-time movie data and a smooth user experience.",
       tags: ["React", "Tailwindcss"],
       image: movie,
       link: "#",

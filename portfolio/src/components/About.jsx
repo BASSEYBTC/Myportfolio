@@ -49,10 +49,10 @@ const About = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <img 
-            src={photo} 
+          <img
+            src={photo}
             alt="Profile photo"
-            className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl mx-auto block" 
+            className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl mx-auto block"
           />
 
           <div>
@@ -60,15 +60,22 @@ const About = () => {
               Turning Ideas into Reality
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with expertise in building
-              modern, responsive, and user-friendly web applications. With a
-              strong foundation in both frontend and backend technologies, I
-              create seamless digital experiences that make a difference.
+              Hi, I'm a student developer who likes breaking things just to
+              figure out how to fix them usually with JavaScript and snacks. I
+              build web apps that try their best to work on the first try (no
+              promises though).
+            </p>
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              React and Tailwind are my daily tools, and I'm currently exploring
+              the mysterious land of backend development where bugs go to
+              multiply. Full-stack dreams, coffee-fueled nights, and lots of
+              console.log.
             </p>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with
-              the developer community.
+              When I'm not coding, I'm either daydreaming startup ideas, lurking
+              on GitHub, or explaining to my friends why 'it works on my
+              machine' is totally valid. I love creating stuff that’s fun,
+              functional, and maybe a little chaotic.
             </p>
 
             <div className="space-y-4">
