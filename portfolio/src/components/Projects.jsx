@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import mine from "../assets/port.png";
-import photo from "../assets/photo.jpeg";
+import movie from "../assets/movie.png";
 import ecorm from "../assets/ecorm.png";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -69,7 +69,7 @@ const Projects = () => {
       description:
         "Interactive weather application with forecasts, maps, and location-based alerts.",
       tags: ["React", "OpenWeather API", "Chart.js"],
-      image: photo,
+      image: movie,
       link: "#",
     },
     {
@@ -77,7 +77,7 @@ const Projects = () => {
       description:
         "Full-stack social platform with real-time messaging, post sharing, and user profiles.",
       tags: ["React", "Tailwindcss"],
-      image: mine,
+      image: movie,
       link: "#",
     },
   ];
