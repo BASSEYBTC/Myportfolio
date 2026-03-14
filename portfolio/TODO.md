@@ -1,12 +1,8 @@
-# Black and White UI Transformation
+# Portfolio TODO
 
-## Task: Change UI from dark cyan/purple theme to black and white
+## Planned Steps for Tech Stack Section
 
-- [x] Analyze codebase and create plan
-- [ ] Update App.jsx - Main container background
-- [ ] Update Navbar.jsx - Navbar styling and links
-- [ ] Update Hero.jsx - Hero section, buttons, social icons
-- [ ] Update About.jsx - About section, skill bars
-- [ ] Update Projects.jsx - Project cards
-- [ ] Update Contact.jsx - Form inputs, buttons
-- [ ] Update Footer.jsx - Footer styling
+- [x] 1. Create TechStack.jsx component
+- [x] 2. Update App.jsx to include TechStack
+- [x] 3. Test the implementation
+- [x] 4. Complete task
