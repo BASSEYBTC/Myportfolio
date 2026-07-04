@@ -107,9 +107,8 @@ const Hero = () => {
             ref={subtitleRef}
             className="text-xl sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto"
           >
-            A passionate{" "}
-            <span className="text-white">Full Stack Developer</span> crafting
-            amazing web experiences
+            Full-Stack AI Developer & Systems Architect building
+            production-grade MVPs at startup velocity.
           </p>
 
           <div

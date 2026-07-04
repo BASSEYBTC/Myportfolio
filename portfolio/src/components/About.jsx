@@ -59,33 +59,19 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-white mb-4">
               Turning Ideas into Reality
             </h3>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Hi, I'm a student developer who likes breaking things just to
-              figure out how to fix them usually with JavaScript and snacks. I
-              build web apps that try their best to work on the first try (no
-              promises though).
-            </p>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              React and Tailwind are my daily tools, and I'm currently exploring
-              the mysterious land of backend development where bugs go to
-              multiply. Full-stack dreams, coffee-fueled nights, and lots of
-              console.log.
-            </p>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, I'm either daydreaming startup ideas, lurking
-              on GitHub, or explaining to my friends why 'it works on my
-              machine' is totally valid. I love creating stuff that’s fun,
-              functional, and maybe a little chaotic.
+              I approach software engineering with a systems-first focus. By
+              designing clean data models and architectures, I orchestrate AI
+              agents to build, optimize, and scale full-stack applications with
+              exceptional speed and precision.
             </p>
-
             <div className="space-y-4">
               {skills.map((skill, index) => (
                 <div key={index} className="group">
-                  <div className="flex justify-between mb-1">
+                  <div className="mb-1">
                     <span className="text-gray-300 font-medium">
                       {skill.name}
                     </span>
-                    <span className="text-white">{skill.level}%</span>
                   </div>
                   <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
                     <div
